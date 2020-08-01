@@ -22,7 +22,7 @@ app.use(express.static("public"));
 
 
 
-// 'mongodb+srv://admin-Eric:20060230@cluster0.ns8ky.mongodb.net/blogDB'
+
 mongoose.connect(dbKey.mongoosekey, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const postSchema= new mongoose.Schema({
